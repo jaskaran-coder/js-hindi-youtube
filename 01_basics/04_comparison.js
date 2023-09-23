@@ -16,6 +16,8 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 
+// Avoid this type of comparisons with different data types
+
 // === 
 
 console.log("2" === 2);
